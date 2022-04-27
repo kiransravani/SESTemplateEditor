@@ -1,0 +1,12 @@
+label {
+    font-weight: 700;
+}
+
+html,
+body {
+    background-color: #f9e8fd;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}

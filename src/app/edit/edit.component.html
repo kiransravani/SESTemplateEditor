@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <ngs-code-editor style="height: 90vh !important;" [theme]="theme" [codeModel]="model" [options]="options"
+                (valueChanged)="onCodeChanged($event)">
+            </ngs-code-editor>
+        </div>
+        <div class="p-3 row">
+            <div class="col-md-12">
+                <button class="btn btn-primary" (click)="preview()">Update & Preview</button>
+            </div>
+        </div>
+    </div>
